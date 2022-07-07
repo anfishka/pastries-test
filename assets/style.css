@@ -12,7 +12,9 @@
 .header__top{
 background: linear-gradient(190deg, rgba(255,84,137,1) 0%, rgba(254,201,237,1) 100%);
 }
-.title__descr{
+.title__descr-flex{
     display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
