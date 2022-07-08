@@ -126,15 +126,29 @@ gap: 2rem;
 
 }
 .order-form{
-background: transparent;
-border: none;
-border-bottom: 1px solid rgb(245, 239, 239);
-display: flex;
-flex-direction: column;
-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 2rem;
 
 }
 .order__btn{
-    padding: 2rem;
+    padding: 1rem 2rem;
+    background-color: rgba(233,0,158,1);
+    border-radius: 100px;
+    border-bottom:transparent;
+    text-align: center;
 
+}
+.order-form-i{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(245, 239, 239);
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.486);
+    font-weight: bold;
+}
+input[type="text"]::placeholder{
+    color: rgba(255, 249, 249, 0.918);
 }
