@@ -110,3 +110,17 @@ gap: 2rem;
     transition: opacity .6s ease;
     border-radius: 100%;  /* add border-radius */
 }
+.preferences__text-h3{
+    text-align: left;
+    color: #000;
+}
+.order{
+    background-color:rgba(233,0,158,1);
+    color: #fff;
+}
+.order-form{
+background: transparent;
+border: none;
+border-bottom: 1px solid rgb(245, 239, 239);
+
+}
