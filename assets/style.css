@@ -52,3 +52,11 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
+.trust{
+    background-color: antiquewhite;
+}
+.steps{
+    background: linear-gradient(190deg, rgba(255,84,137,1) 0%, rgba(233,0,158,1) 100%);
+        border-radius: 100px;
+        padding: 0.5rem 2rem;
+}
