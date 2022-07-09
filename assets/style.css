@@ -239,4 +239,12 @@ width: 12rem;
     text-align: center;
     width: 2.5rem;
     height: 2.5rem;
+    display: inline;
+}
+.preferances-text-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
