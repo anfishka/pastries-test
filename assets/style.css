@@ -32,6 +32,7 @@ background: linear-gradient(190deg, rgba(255,84,137,1) 0%, rgba(254,201,237,1) 1
     gap: 2rem;
     text-align: center;
     justify-content: center;
+    flex-wrap:wrap;
 
 }
 .preferences__list__link{
@@ -151,4 +152,37 @@ gap: 2rem;
 }
 input[type="text"]::placeholder{
     color: rgba(255, 249, 249, 0.918);
+}
+.gallery__grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-areas:"a c e" 
+                        "a c f "
+                        "a c f"
+                        "a d f";
+}
+.item-1{
+grid-area: a;
+}
+.item-2{
+    grid-area: b;
+}
+.item-3{
+    grid-area: c;
+}
+.item-4{
+    grid-area: d;
+}
+.item-5{
+    grid-area: e;
+}
+.item-6{
+    grid-area: f;
+}
+.gallery__img{
+    width: 9rem;
+}
+.gallery{
+    margin: 0 auto;
+    width: 50rem;
 }
