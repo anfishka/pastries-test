@@ -156,10 +156,10 @@ input[type="text"]::placeholder{
 .gallery__grid{
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-areas:"a c e" 
-                        "a c f "
-                        "a c f"
-                        "a d f";
+    grid-template-areas:"a a e e b b d d d d" 
+                        "a a e e b b d d d d"
+                        "f f f f c c d d d d"
+                        "f f f f c c d d d d";
 }
 .item-1{
 grid-area: a;
@@ -180,9 +180,15 @@ grid-area: a;
     grid-area: f;
 }
 .gallery__img{
-    width: 9rem;
+    width: 30rem;
 }
 .gallery{
     margin: 0 auto;
+    width: 50rem;
+}
+.img-1{
+width: 22rem;
+}
+.order__text-div{
     width: 50rem;
 }
