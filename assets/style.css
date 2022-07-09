@@ -192,3 +192,18 @@ width: 22rem;
 .order__text-div{
     width: 50rem;
 }
+.trust__workers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction:row;
+    gap: 4rem;
+    color: #000;
+}
+.trust__worker-p{
+    width: 20rem;
+}
+.trust__text-h3{
+    color: #000;
+    text-align: center;
+}
