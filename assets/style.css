@@ -25,7 +25,8 @@ background: linear-gradient(190deg, rgba(255,84,137,1) 0%, rgba(254,201,237,1) 1
     color: aliceblue;
     background: linear-gradient(190deg, rgba(255,84,137,1) 0%, rgba(233,0,158,1) 100%);
     border-radius: 100px;
-    padding:0.5rem 2rem;
+    padding:0.5rem 1rem;
+
 }
 .preferences__list{
     display: flex;
