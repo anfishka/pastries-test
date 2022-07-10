@@ -252,3 +252,15 @@ width: 12rem;
     color: #fff;
  
 }
+.navbar{
+    background-color: rgb(235, 22, 104);
+    margin: 0 auto;
+
+}
+.header__content{
+    margin: 0;
+    padding: 0;
+}
+title__descr-flex{
+    padding: 2rem;
+}
