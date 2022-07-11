@@ -275,3 +275,12 @@ width: 12rem;
 .vv{
 width: 2rem;
 }
+.title__descr{
+    width: 25rem;
+}
+.preferences__choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
