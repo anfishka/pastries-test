@@ -278,9 +278,12 @@ width: 2rem;
 .title__descr{
     width: 25rem;
 }
-.preferences__choice{
+ .preference__choice-row{
+    background-color: rgb(133, 64, 102);
+    flex-wrap: wrap;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+} 
+.choice-row{
+    flex: 1 1 160px;
+    width: 3rem;
 }
