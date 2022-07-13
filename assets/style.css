@@ -70,14 +70,6 @@ a{
        
 
 }
-.trust__list{
-display: flex;
-justify-content: center;
-text-align: center;
-gap: 2rem;
-
-
-}
 .steps__title-h4{
     width: 3rem;
     background-color: #fff;
@@ -283,7 +275,7 @@ width: 2rem;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    
+
 } 
 .choice-row{
      flex: 1 1 260px;
@@ -291,4 +283,17 @@ width: 2rem;
     text-align: center;
     padding:0 3rem;
     max-width: 30rem;
+}
+.trust__list__item{
+    flex: 1 1 260px; 
+    text-align: center;
+    padding:0 3rem;
+    max-width: 30rem;
+    
+}
+.trust__list{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
