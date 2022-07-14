@@ -297,3 +297,10 @@ width: 2rem;
     justify-content: center;
     gap: 1rem;
 }
+.short{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+}
