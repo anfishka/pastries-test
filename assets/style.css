@@ -321,8 +321,9 @@ width: 2rem;
       align-items: center;
       flex-direction: column;
       margin: 0 auto;
-}
-img{
-    display: block;
-
+      background-color: #FFDFE7;
+      border-radius: 10px;
+      color: rgb(223, 4, 157);
+      font-weight: bold;
+      padding: 2rem;
 }
