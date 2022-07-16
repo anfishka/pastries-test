@@ -312,7 +312,6 @@ width: 2rem;
     flex-direction: row;
     margin: 0 auto;
     text-align: center;
-  
 }
 .hits__content{
       text-align: center;
@@ -326,5 +325,5 @@ width: 2rem;
       color: rgb(223, 4, 157);
       font-weight: bold;
       padding: 2rem;
-      
+
 }
